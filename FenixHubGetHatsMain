@@ -1,0 +1,39 @@
+_G.Prefix = ";" -- Customize your Prefix
+
+--[[
+
+Made by GamerBoi#5042 on discord.
+
+Commands:
+ogre
+flying extendo
+amongus
+sniper 
+mech
+hoverboard
+extendo
+samurai
+killbot
+stand
+bob
+mech arm
+car
+fallen angel
+spider (Version 1)
+scythe
+pp
+head
+creeper
+spiderv2 (Version 2)
+mechanoid
+sofa room
+statue
+handz vr
+
+There are other aliases for the get hats, I just didn't include them here.
+
+Please note that this works best when put in your autoexc folder and that this script does NOT execute the scripts themselves, they only give you the hats for them.
+
+--]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDrake666/FenixHub/main/FenixHubMain"))()
