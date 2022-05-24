@@ -1,0 +1,100 @@
+--> Made with LUA by GamerBoi#5042
+--// Waiting till game is loaded
+repeat task.wait() until game:IsLoaded()
+
+
+--// Variables
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local Prefix = _G.Prefix
+
+
+--// Functions
+local function lwr(msg, msg2)
+    if string.lower(msg) == Prefix..msg2 then 
+        return true
+    end
+end
+local function Fire(msg)
+    require(LocalPlayer.PlayerScripts.ChatScript.ChatMain).MessagePosted:fire(msg)
+end
+
+
+--// Checking game
+if game.PlaceId == 5100950559 then
+    LocalPlayer.Chatted:Connect(function(msg)
+        if lwr(msg, "ogre") then
+            Fire("-gh 20011897,20011951,5132742686,5829897537,5829899746,5857609096,5857617173,11142504,4641686175,14463468")
+            
+        elseif lwr(msg, "flyextendo") or lwr(msg, "flyingextendo") or lwr(msg, "flying extendo") then
+            Fire("-gh 4132848799,5136212345,5136159662,5136165463,20011897,5136154487,48474294,451220849,63690008,62234425")
+        
+        elseif lwr(msg, "amogus") or lwr(msg, "amongus") then
+            Fire("-gh 6055132810,5231223671,4584042059")
+        
+        elseif lwr(msg, "sniper") or lwr(msg, "fenixsniper") then
+            Fire("-gh 5136154487,4504231783,63690008")
+        
+        elseif lwr(msg, "mech") then
+            Fire("-gh 14463468,11142504,5197583204,5197580057,4367478665,4504231783,48474294,451220849,63690008,62234425")
+        
+        elseif lwr(msg, "fenixhoverboard") or lwr(msg, "hoverboard") then
+            Fire("-gh 5136154487,191101707,29532720,451220849,63690008,62234425")
+        
+        elseif lwr(msg, "extendo") then
+            Fire("-gh 8337370,16157972,15913837,5132745957,20011897,48474294,48474313,451220849,63690008,62234425")
+        
+        elseif lwr(msg, "katana") or lwr(msg, "samurai") then
+            Fire("-gh 4771664741,63690008")
+        
+        elseif lwr(msg, "killbot") or lwr(msg, "kill bot") then
+            Fire("-gh 6114870953,6114875330,6114844034,6114849049,5100070995,191101707,4489239608,4504231783")
+        
+        elseif lwr(msg, "stand") then
+            Fire("-gh 4735551808,29532720,4085947044,48474294,451220849,63690008,62234425")
+        
+        elseif lwr(msg, "bob") then
+            Fire("-gh 4602280470,4602810314,4132848799,5132745957,4602286484,30845203")
+        
+        elseif lwr(msg, "mecharm") or lwr(msg, "mech arm") then
+            Fire("-gh 29532720,48474294,48474313,451220849,63690008,62234425,20011897,14463468")
+        
+        elseif lwr(msg, "car") then
+            Fire("-gh 6309381870,191101707")
+        
+        elseif lwr(msg, "fallenangel") or lwr(msg, "angel") or lwr(msg, "fallen angel") then
+            Fire("-gh 5870560075,5870530069,5870508493,5870540219,5136212345,5136159662,5136165463,5136154487,48474294")
+            
+        elseif lwr(msg, "spider") then
+            Fire("-gh 6309592547,8337370,16157972,15913837,4584787812,48474294,48474313,451220849,63690008,62234425")
+        
+        elseif lwr(msg, "scythe") then
+            Fire("-gh 5870560075,5870530069,5870508493,4794106130,4584787812,48474294,451220849,63690008,62234425")
+        
+        elseif lwr(msg, "peepee") or lwr(msg, "pp") or lwr(msg, "penis") then
+            Fire("-gh 20011897,12548563")
+            
+        elseif lwr(msg, "head") then
+             Fire("-gh 4793958453,5674299814,5674297809,1744219293,4878136110,4820288389,4584788319,4584787037,4584787812,1744219293,29532720")
+             
+        elseif lwr(msg, "creper") or lwr(msg, "creeper") then
+             Fire("-gh 7603560230, 30845203, 29532720, 48474294, 451220849, 63690008, 62234425")
+             
+        elseif lwr(msg, "spider2") or lwr(msg, "spiderv2") then
+             Fire("-gh 6309592547, 4584787812, 5314242179, 7178028147, 7284595734, 5314249208, 5314234050, 5314258567, 7168347862, 7168251461")
+             
+        elseif lwr(msg, "mech2") or lwr(msg, "mechv2") or lwr(msg, "mechanoid") then
+             Fire("-gh 7178028147, 7284595734, 7168360269, 5314249208, 5314234050, 5314258567, 29532720, 4504231783, 63690008")
+
+        elseif lwr(msg, "sofa") or lwr(msg, "sofa room") then
+             Fire("-gh 5591760397, 8163032656, 4793958453, 4878136110, 4584788319, 4584787037, 4585144193, 4332375148")
+
+        elseif lwr(msg, "statue") then
+             Fire("-gh 1744219293, 30845203, 5063499736, 4878136110, 4584788319, 191101707, 4584787812, 4584787037, 8284021247")
+
+        elseif lwr(msg, "vr") or lwr(msg, "hands") or lwr(msg, "handz") or lwr(msg, "hands vr") or lwr(msg, "handz vr") then
+             Fire("-gh 7669627395, 4793958453, 5674298865, 1744219293, 18015906, 1743941933, 4878136110, 4584788319, 4584787037, 4584787812")
+       
+         end
+    end)
+end
