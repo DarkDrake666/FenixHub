@@ -1,4 +1,4 @@
-ocal NotificationLibrary  = {}
+local NotificationLibrary  = {}
 
 function NotificationLibrary:Notification(title, text, time)
 	local NotificationUI = Instance.new("ScreenGui")
