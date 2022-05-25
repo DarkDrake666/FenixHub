@@ -94,7 +94,38 @@ if game.PlaceId == 5100950559 then
 
         elseif lwr(msg, "vr") or lwr(msg, "hands") or lwr(msg, "handz") or lwr(msg, "hands vr") or lwr(msg, "handz vr") then
              Fire("-gh 7669627395, 4793958453, 5674298865, 1744219293, 18015906, 1743941933, 4878136110, 4584788319, 4584787037, 4584787812")
-       
+             
+        elseif lwr(msg, "samurai r15") or lwr(msg, "r15 samurai") or lwr(msg, "r15samurai") then
+             Fire("-gh 4771664741")
+             
+        elseif lwr(msg, "sniper r15") or lwr(msg, "r15sniper") then
+             Fire("-gh 4504231783, 5136154487")
+             
+        elseif lwr(msg, "peepeer15") or lwr(msg, "r15peepee") or lwr(msg, "r15pp") or lwr(msg, "pp r15") then
+             Fire("-gh 5674299814, 5674297809")
+             wait(1)
+             Notify:Notification("Information", "Check the FENIX discord for instructions if it doesn't look right!", 3)
+             
+        elseif lwr(msg, "r15amongus") or lwr(msg, "r15 amongus") or lwr(msg, "amongus r15") or lwr(msg, "among us r15") or lwr(msg, r15 among us") then
+             Fire("-gh 5231223671")
+             wait(1)
+             Notify:Notification("Information", "Make your right arm blue, to represent the glass infront.", 3)
+             
+        elseif lwr(msg, "car r15") or lwr(msg, "r15car") or lwr(msg, "r15 car") then
+             Fire("-gh 6309381870, 191101707")
+             
+        elseif lwr(msg, "arm man") or lwr(msg, "arm-man") or lwr(msg, "r15 arm man") or lwr(msg, "arm man r15") or lwr(msg, "arm-man r15") then
+             Fire("-gh 5858476490")
+             wait(1)
+             Notify:Notification("Information", "Use the shirt provided in the FENIX discord server if it doesn't look right!", 3)
+             
+        elseif lwr(msg, "dragon") or lwr(msg, "r15 dragon") or lwr(msg, "dragon r15") then
+             Fire("-gh 5410515027, 5410518497, 5593848751, 5505301521")
+             wait(1)
+             Notify:Notification("Information", "Use the shirt and pants provided in the FENIX discord server if it doesn't look right!", 3)
+             
+        elseif lwr(msg, "flying extendo r15") or lwr(msg, "flyingextendo r15") or lwr(msg, "r15 flying extendo") then
+             Fire("-gh 5677348945, 5677350668, 7241027024, 4132848799")
          end
     end)
 end
