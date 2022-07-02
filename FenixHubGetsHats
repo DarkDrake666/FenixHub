@@ -106,7 +106,7 @@ if game.PlaceId == 5100950559 then
              wait(1)
              Notify:Notification("Information", "Check the FENIX discord for instructions if it doesn't look right!", 3)
              
-        elseif lwr(msg, "r15amongus") or lwr(msg, "r15 amongus") or lwr(msg, "amongus r15") or lwr(msg, "among us r15") or lwr(msg, r15 among us") then
+        elseif lwr(msg, "r15amongus") or lwr(msg, "r15 amongus") or lwr(msg, "amongus r15") or lwr(msg, "among us r15") or lwr(msg, "r15 among us") then
              Fire("-gh 5231223671")
              wait(1)
              Notify:Notification("Information", "Make your right arm blue, to represent the glass infront.", 3)
