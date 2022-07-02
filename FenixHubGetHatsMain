@@ -1,6 +1,6 @@
-if game.PlaceId = 5100950559 then
+if game.PlaceId == 5100950559 then
 
-_G.Prefix = ";" -- Customize your Prefix
+_G.Prefix = "-" -- Customize your Prefix
 
 --[[
 
